@@ -33,10 +33,7 @@ const FormMui = () => {
         event.preventDefault();
         alert("Form Submitted👍");
         setClick(fullname);
-        window.open(URL,"_blank");
-     
-
-        document.write("<h1>Congratulations ! Your Form Submitted</h1>");
+         document.write("<h1>Congratulations ! Your Form Submitted</h1>");
         document.body.style.backgroundColor="aliceblue";
         document.write("<h1>Thankyou!👍😀</h1>");
     };
@@ -47,9 +44,7 @@ const FormMui = () => {
      <form onSubmit={onsubmits}>
      <h1 >Login Form</h1>
         <h1 > Welcome {fullname.fname}  {fullname.lname}</h1>
-          <h3 >{click.email}</h3>
-             <h3 >{click.phone}</h3>
-              <h3>{fullname.gender}</h3>
+        
 
   <FormControl margin="normal" fullWidth autoComplete="off">
  <InputLabel htmlfor="fname">FirstName</InputLabel>
