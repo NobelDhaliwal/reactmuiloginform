@@ -33,10 +33,7 @@ const FormMui = () => {
         event.preventDefault();
         alert("Form Submitted👍");
         setClick(fullname);
-         document.write("<h1>Congratulations ! Your Form Submitted</h1>");
-        document.body.style.backgroundColor="aliceblue";
-        document.write("<h1>Thankyou!👍😀</h1>");
-    };
+        };
     return (
         <>
     <div className="main_div">
