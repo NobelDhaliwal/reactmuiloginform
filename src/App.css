@@ -14,7 +14,7 @@
   }
   .center_div{
       width:50%;
-     height:100vh;
+    
   }
   h1{
       text-align: center;
@@ -27,5 +27,6 @@
   .yip{
       cursor:pointer;
       margin-bottom: 4px;
+    
   }
   
